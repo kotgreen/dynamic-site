@@ -93,17 +93,38 @@ function insert($table, $params)
     }
 
     $sql = "INSERT INTO $table ($coll) VALUES ($mask)";
-
     $query = $pdo->prepare($sql);
     $query->execute();
     dbCheckError($query);
 }
 
+// обновление строки в таблице
+function update($table, $id, $params)
+{
+    global $pdo;
+    $i = 0;
+    $str = '';
+    foreach ($params as $key => $value) {
+        if ($i === 0) {
+            $str = $str . "$key = '$value'";
+        } else {
+            $str = $str . ", $key = '$value'";
+        }
+        $i++;
+    }
 
-$arrData = [
-    'admin' => 0,
-    'username' => 'm23omo',
-    'email' => 'email32412309',
-    'password' => 'c98eqwjw'
-];
-insert('users', $arrData);
+    $sql = "UPDATE $table SET $str WHERE id = $id";
+    $query = $pdo->prepare($sql);
+    $query->execute();
+    dbCheckError($query);
+}
+
+// удаление строки в таблице
+function delete($table, $id)
+{
+    global $pdo;
+    $sql = "DELETE FROM $table WHERE id = $id";
+    $query = $pdo->prepare($sql);
+    $query->execute();
+    dbCheckError($query);
+}
