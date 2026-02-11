@@ -35,7 +35,7 @@ input {
 
 /* HEADER */
 header {
-    background: #020a2c;
+    background: #0e2b48;
     height: 70px;
 }
 
@@ -156,7 +156,7 @@ header ul li ul li a {
 }
 
 .main-content .post_text {
-    background: #1d081e;
+    background: #0e2b48;
     padding: 8px;
     border-radius: 3px;
 }
@@ -211,7 +211,7 @@ header ul li ul li a {
 
 /* Footer */
 .footer {
-    background: #2c0101;
+    background: #03111a;
     position: relative;
 }
 
@@ -336,4 +336,10 @@ header ul li ul li a {
 .reg_form a:hover {
     margin-left: 55px;
     transition: all .3s;
+}
+
+/* FORMS ERROR */
+form div.err p {
+    color: red;
+    font-size: 0.8rem;
 }

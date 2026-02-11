@@ -87,7 +87,7 @@
 
         <div class="post row">
           <div class="img col-12 col-md-4">
-            <img src="images/img4.png" alt="" class="img-thumbnail">
+            <img src="assets/images/img4.png" alt="" class="img-thumbnail">
           </div>
           <div class="post_text col-12 col-md-8">
             <h3><a href="#">Статья на тему динамического сайта...</a></h3>
@@ -102,23 +102,7 @@
 
         <div class="post row">
           <div class="img col-12 col-md-4">
-            <img src="images/img4.png" alt="" class="img-thumbnail">
-          </div>
-          <div class="post_text col-12 col-md-8">
-            <h3><a href="#">Статья на тему динамического сайта...</a></h3>
-            <i class="far fa-user"> Имя Автора</i>
-            <i class="far fa-calendar"> Mar 11, 2019</i>
-            <p class="preview-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A sit facilis nulla.
-              Minus deserunt vero corrupti, placeat saepe quidem quos quam laborum iure a quia.
-            </p>
-          </div>
-        </div>
-
-
-        <div class="post row">
-          <div class="img col-12 col-md-4">
-            <img src="images/img4.png" alt="" class="img-thumbnail">
+            <img src="assets/images/img4.png" alt="" class="img-thumbnail">
           </div>
           <div class="post_text col-12 col-md-8">
             <h3><a href="#">Статья на тему динамического сайта...</a></h3>
@@ -134,7 +118,7 @@
 
         <div class="post row">
           <div class="img col-12 col-md-4">
-            <img src="images/img4.png" alt="" class="img-thumbnail">
+            <img src="assets/images/img4.png" alt="" class="img-thumbnail">
           </div>
           <div class="post_text col-12 col-md-8">
             <h3><a href="#">Статья на тему динамического сайта...</a></h3>
@@ -150,7 +134,23 @@
 
         <div class="post row">
           <div class="img col-12 col-md-4">
-            <img src="images/img4.png" alt="" class="img-thumbnail">
+            <img src="assets/images/img4.png" alt="" class="img-thumbnail">
+          </div>
+          <div class="post_text col-12 col-md-8">
+            <h3><a href="#">Статья на тему динамического сайта...</a></h3>
+            <i class="far fa-user"> Имя Автора</i>
+            <i class="far fa-calendar"> Mar 11, 2019</i>
+            <p class="preview-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A sit facilis nulla.
+              Minus deserunt vero corrupti, placeat saepe quidem quos quam laborum iure a quia.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="post row">
+          <div class="img col-12 col-md-4">
+            <img src="assets/images/img4.png" alt="" class="img-thumbnail">
           </div>
           <div class="post_text col-12 col-md-8">
             <h3><a href="#">Статья на тему динамического сайта...</a></h3>
