@@ -1,3 +1,4 @@
 <?php
-
-define('BASE_URL', 'http://localhost/dynamic-site/');
+const SITE_ROOT = __DIR__;
+const BASE_URL = 'http://localhost/dynamic-site/';
+define('ROOT_PATH', __DIR__ . DIRECTORY_SEPARATOR);

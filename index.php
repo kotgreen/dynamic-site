@@ -1,6 +1,6 @@
 <?php
 include 'path.php';
-include 'app/database/db.php';
+include 'app/controllers/topics.php';
 ?>
 
 <!doctype html>
@@ -180,11 +180,11 @@ include 'app/database/db.php';
         <div class="section topics">
           <h3>Категории</h3>
           <ul>
-            <li><a href="#"></a>Программирование</li>
-            <li><a href="#"></a>Дизайн</li>
-            <li><a href="#"></a>Визуализация</li>
-            <li><a href="#"></a>Кейсы</li>
-            <li><a href="#"></a>Мотивация</li>
+            <?php foreach ($topics as $key => $topic): ?>
+              <li>
+                <a href="#"><?= $topic['name'] ?></a>
+              </li>
+            <?php endforeach; ?>
           </ul>
         </div>
 
