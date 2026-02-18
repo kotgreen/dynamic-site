@@ -1,6 +1,7 @@
 <?php
 session_start();
 include '../../path.php';
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -48,11 +49,11 @@ include '../../path.php';
                 <form action="create.php" method="post">
                     <div class="col">
                         <label for="formGroupExampleInput" class="form-label">Логин</label>
-                        <input name="login" value="<?= $login ?>" type="text" class="form-control" id="formGroupExampleInput" placeholder="введите логин">
+                        <input name="login" value="<?= $login; ?>" type="text" class="form-control" id="formGroupExampleInput" placeholder="введите логин">
                     </div>
                     <div class="col">
                         <label for="exampleInputEmail1" class="form-label">Email</label>
-                        <input name="mail" value="<?= $email ?>" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="введите email">
+                        <input name="mail" value="<?= $email; ?>" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="введите email">
                     </div>
                     <div class="col">
                         <label for="exampleInputPassword1" class="form-label">Пароль</label>
